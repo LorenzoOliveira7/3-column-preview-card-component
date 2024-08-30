@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | 3-column preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+body{
+  width: 1440px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 95%);
+}
+div.container{
+  display: flex;
+  width: 800px;
+  height: 450px;
+}
+.laranja{
+ border-top-left-radius: 10px;
+ border-end-start-radius: 10px;
+  height: 420px;
+  background-color: hsl(31, 77%, 52%);
+  
+}
+.azul{
+ 
+  height: 420px;
+  background-color: hsl(184, 100%, 22%);
+}
+.verde{
+  border-top-right-radius: 10px;
+  border-end-end-radius:10px ;
+  height: 420px;
+  background-color: hsl(179, 100%, 13%);
+ 
+}
+
+img {
+margin: 35px;
+}
+h1{
+  margin: 0px 35px 0px 35px;
+  font-family: "Big Shoulders Display", sans-serif;
+color: hsl(0, 0%, 95%);
+}
+p{
+  margin: 35px 35px 70px 35px;
+  font-family: "Big Shoulders Display", system-ui;
+  font-weight: 500;
+color: hsla(0, 0%, 100%, 0.75);
+}
+div.azul button{
+border: 0px;
+width: 110px;
+height: 40px;
+background-color: hsl(0, 0%, 95%);
+color: hsl(184, 100%, 22%);
+margin: 0px 0px 0px 75px;
+border-radius: 30px;
+}
+div.verde button{
+border: 0px;
+width: 110px;
+height: 40px;
+background-color: hsl(0, 0%, 95%);
+color: hsl(179, 100%, 13%);
+margin: 0px 0px 0px 75px;
+border-radius: 30px;
+}
+
+div.laranja button{
+border: 0px;
+width: 110px;
+height: 40px;
+background-color: hsl(0, 0%, 95%);
+color: lightsalmon;
+margin: 0px 0px 0px 75px;
+border-radius: 30px;
+}
+
+
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  
+  <div class="container">
+    <div class="laranja">
+      <img src="images/icon-sedans.svg" alt="">
+      <h1>SEDANS</h1>
+      <p>Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
+        or on your next road trip.</p>
+        <button>Learn More</button>
+    </div>
+    <div class="azul">
+      <img src="images/icon-suvs.svg" alt="">
+      <h1>SUVS</h1>
+      <p>Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation 
+        and off-road adventures.</p>
+        <button>Learn More</button>
+    </div>
+    <div class="verde">
+      <img src="images/icon-luxury.svg" alt="">
+      <h1>LUXURY</h1>
+      <p>Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
+        rental and arrive in style.</p>
+        <button>Learn More</button>
+    </div>
+  </div>
+  
+ 
+</body>
+</html>
